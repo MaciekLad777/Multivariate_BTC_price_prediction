@@ -2,7 +2,7 @@
 
 
 
-**Projekt zawiera proces tworzenia sekwencyjnego modelu przewidującego cenę BTC w stosunku do USD, od pobierania i preprocessowania danych, poprzez ich dalszą analizę oraz uzupełnianie, aż do ostatecznego szkolenia i testowania finalnego modeli.**
+**Projekt zawiera proces tworzenia sekwencyjnego modelu przewidującego cenę BTC w stosunku do USD, od pobierania i preprocessowania danych, poprzez ich dalszą analizę oraz uzupełnianie, aż do ostatecznego szkolenia i testowania finalnego modelu.**
 
 
 # Dane
