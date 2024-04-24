@@ -44,23 +44,19 @@
 
 
 
-**CRYPTO_data_preprocessing.ipynb**
-
+**CRYPTO_data_preprocessing.ipynb** - 
 Pobieranie i wstępna analiza danych, Zmiana kształtu, długości oraz ilości rekordów.
 
 
-**CRYPTO_model_training.ipynb**	
-
+**CRYPTO_model_training.ipynb** - 
 Analiza wpływu poszczególnych danych na cenę BTC.
 Testowanie modeli z różnymi danymi
 Trenowanie finalnego modelu
 
 
-**CRYPTO_volume_model.ipynb**	
-
+**CRYPTO_volume_model.ipynb** - 
 Uzupełnianie brakujących danych kolumny Market Volume
 
 
-**CRYPTO_twitter_sentiment.ipynb**	
-
+**CRYPTO_twitter_sentiment.ipynb** - 
 Analiza sentymentu w stosunku do BTC na podstawie tweetów (PORZUCONE Z POWODU ZBYT MAŁEJ ILOŚCI DANYCH)
