@@ -1,62 +1,70 @@
-# Multivariate_BTC_price_prediction
+# Multivariate_BTC_Price_Prediction  
 
+**This project focuses on building a sequential model to predict the BTC/USD price. It includes data collection, preprocessing, detailed analysis, handling missing values, and final model training and testing.**  
 
+---
 
-**Projekt zawiera proces tworzenia sekwencyjnego modelu przewidującego cenę BTC w stosunku do USD, od pobierania i preprocessowania danych, poprzez ich dalszą analizę oraz uzupełnianie, aż do ostatecznego szkolenia i testowania finalnego modelu.**
+## Data  
 
+1. **BTC/USD Price** – Core price data.  
 
-# Dane
+2. **Prices of Related Cryptocurrencies (USD)**  
+   - AVAX – Avalanche  
+   - BCH – Bitcoin Cash  
+   - BNB – Binance Coin  
+   - DOGE – Dogecoin  
+   - ETH – Ethereum  
 
-1.Cena BTC/USD, podstawowe dane
+3. **Sentiment Data** – Buyer sentiment data indicating the willingness to buy BTC.  
+   - Source: [Alternative.me Crypto API](https://alternative.me/crypto/api/)  
 
-2.Ceny mniej lub bardziej powiązanych z BTC coinów (USD)
-	
-	-AVAX-Avalanche
-	-BCH-Bitcoin Cash
-	-BNB-Binance coin
-	-Doge
-	-ETH-Ethereum
-	
-3.Sentyment, określający nastawienie kupujących. Czy są skłonni do zakupu czy nie.
-	
-	https://alternative.me/crypto/api/
-	
-4.Wiadomości z twittera w temacie BTC
+4. **Twitter Sentiment** – BTC-related tweets for sentiment analysis.  
 
-5.BTC w stosunku  do najważniejszych walut światowych
-	
-	-CAD-Dolar Kanadyjski
-	-CNY-Juan Chiński
-	-EUR-Euro
-	-GBP-Funt Szterling
-	-JPY-Jen Japoński
+5. **BTC Compared to Major World Currencies**  
+   - CAD – Canadian Dollar  
+   - CNY – Chinese Yuan  
+   - EUR – Euro  
+   - GBP – British Pound  
+   - JPY – Japanese Yen  
 
-6.Market Volume tzn. wartość transakcji wykonanych za pomocą BTC.
+6. **Market Volume** – Transaction values conducted using BTC.  
 
-7.Wartość rynków giełdowych
-	
-	-NYSE
-	-NASDAQ
-	-LSE
+7. **Stock Market Indices**  
+   - NYSE – New York Stock Exchange  
+   - NASDAQ – Nasdaq Composite Index  
+   - LSE – London Stock Exchange  
 
+---
 
-# Notebooks
+## Notebooks  
 
+1. **`CRYPTO_data_preprocessing.ipynb`**  
+   - Data collection and initial analysis.  
+   - Reshaping and transforming datasets, handling inconsistencies.  
 
+2. **`CRYPTO_model_training.ipynb`**  
+   - Analyzing the impact of individual features on BTC price.  
+   - Testing multiple models with different feature sets.  
+   - Training and evaluating the final model.  
 
-**CRYPTO_data_preprocessing.ipynb** - 
-Pobieranie i wstępna analiza danych, Zmiana kształtu, długości oraz ilości rekordów.
+3. **`CRYPTO_volume_model.ipynb`**  
+   - Filling missing values in the **Market Volume** column using interpolation or modeling methods.  
 
+4. **`CRYPTO_twitter_sentiment.ipynb`**  
+   - Sentiment analysis of BTC-related tweets.  
+   - **Note**: Abandoned due to insufficient tweet data.  
 
-**CRYPTO_model_training.ipynb** - 
-Analiza wpływu poszczególnych danych na cenę BTC.
-Testowanie modeli z różnymi danymi
-Trenowanie finalnego modelu
+---
 
+## Planned Updates  
 
-**CRYPTO_volume_model.ipynb** - 
-Uzupełnianie brakujących danych kolumny Market Volume
+1. **Gold Price**  
+   - Adding historical and real-time gold price data for correlation analysis.  
 
+2. **Macroeconomic Data**  
+   - **Interest Rates** – Tracking changes in loan interest rates.  
+   - **Unemployment Rate** – Incorporating unemployment trends to analyze economic impacts on BTC prices.  
 
-**CRYPTO_twitter_sentiment.ipynb** - 
-Analiza sentymentu w stosunku do BTC na podstawie tweetów (PORZUCONE Z POWODU ZBYT MAŁEJ ILOŚCI DANYCH)
+---  
+
+This structured approach ensures robust BTC price prediction using multivariate analysis while addressing data gaps and challenges. Future updates will enhance the model with external economic factors for improved accuracy.  
