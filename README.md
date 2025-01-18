@@ -62,8 +62,13 @@
    - Adding historical and real-time gold price data for correlation analysis.  
 
 2. **Macroeconomic Data**  
-   - **Interest Rates** – Tracking changes in loan interest rates.  
-   - **Unemployment Rate** – Incorporating unemployment trends to analyze economic impacts on BTC prices.  
+   - **Interest Rates** – Tracking changes in loan interest rates.
+   - **Interest Rates predictions** - FOMC data about predicted changes of intreset rates  
+   - **Unemployment Rate** – Incorporating unemployment trends to analyze economic impacts on BTC prices.
+   - **Job openings** - Number of new jobs created
+   - **CPI/CPI infaltion**  - Indicators of infaltion
+   - **ISM index (industry and non industry)** - indicator created from data from us nationwide surveys, asking about exchange changes(https://warsztatanalityka.pl/ism-index-najwazniejsze-informacje-dla-inwestora/)
+   - **BTC market_cap / Total3-USDC market cap** - btc market capitalization compared to capitalization of alts reduced by stables cap
 
 ---  
 
